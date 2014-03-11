@@ -1,0 +1,12 @@
+{
+	"content": {
+		"id": "01",
+		"name": "hoge",
+		"list": [
+			"hoge",
+			"foo",
+			"bar",
+			"baz"
+		]
+	}
+}
