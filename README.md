@@ -1,4 +1,4 @@
-javascript
+Javascript
 ==========
 
-javascript practice
+Javascript practice repo.

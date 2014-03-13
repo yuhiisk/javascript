@@ -7,7 +7,7 @@ module.exports = (grunt) ->
 			server: 
 				options: 
 					port: 8000,
-					base: '.'
+					base: 'src/'
 
 		notify:
 			server:
@@ -17,11 +17,11 @@ module.exports = (grunt) ->
 
 		watch:
 			html:
-				files: [ '*.html', '**/*.html' ]
+				files: [ 'src/*.html', 'src/**/*.html' ]
 				options:
 					livereload: true
-			js:
-				files: [ '*.js' ]
+			scripts:
+				files: [ 'src/**/*.js' ],
 				options:
 					livereload: true
 
